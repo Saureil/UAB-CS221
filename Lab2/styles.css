@@ -28,14 +28,16 @@ justifies content to center */
 a {
     background-color: green;
     text-decoration: none;
-    transition: color 3s;
+    transition: color;
     display:grid;
     text-align: center;
     justify-content: center;
+    color: yellow;
 }
-/* sets links to turn background yellow on hover with mouse */
+/* sets links to turn background yellow, text green, on hover with mouse */
 a:hover {
     background-color: yellow;
+    color: green;
 }
 /* changes background color */
 .introSent {
