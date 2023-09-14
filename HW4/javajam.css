@@ -6,6 +6,19 @@
     font: Tahoma;
 }
 
+a {
+    text-decoration: none;
+    color: #8C3826;
+}
+
+a:hover {
+    color:#D2B48C
+}
+
+a:visited {
+    color: black;
+}
+
 header {
     color: #8C3826;
     background-color: #D2B48C;
@@ -14,7 +27,7 @@ header {
 
 h1 {
     line-height: 200%;
-    font-family: ;
+    font-family: 'Lobster', cursive;
 }
 
 h2 {
