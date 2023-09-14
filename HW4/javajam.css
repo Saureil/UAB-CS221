@@ -9,3 +9,30 @@ header {
     background-color: #D2B48C;
     text-align: center;
 }
+
+h1 {
+    line-height: 200%;
+}
+
+h2 {
+    color: #8c3826;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60rem;
+    font-style:italic;
+    text-align: center;
+}
+
+.body {
+    width: 80%;
+    background-color: #FEFAEB;
+    margin-right: auto;
+    margin-left: auto;
+}
