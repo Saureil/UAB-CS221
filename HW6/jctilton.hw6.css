@@ -1,0 +1,88 @@
+
+/* give 0 padding and margin, sets as felx box, sets flexwrap to felx, centers content, expands to whole page,
+set background to black for ease of view, width and height to auto */
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: auto;
+    height: auto;
+}
+
+/* sets each item to take up 33.33 percent of the container, 
+sets padding to 5px to offset slightly between items,
+changes items size to borderbox,
+makes text color white (to change later),
+sets diplay and wrap to flex,
+centers items,
+w/h auto,
+font size increased,
+set padding lower to ensure full line
+set border radius for all items*/
+.grid_item {
+    flex-basis: 33.33%;
+    aspect-ratio: 1;
+    width: auto;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 1rem;
+    padding: -100px;
+}
+
+/* sets item size to span container,
+changes background color to red, */
+#item_1 {
+    flex-basis: 100%;
+    background-color: red;
+    color: blue;
+}
+
+/* set background and font color */
+#item_2 {
+    background-color: orange;
+    color: green;
+}
+/* set background and font color */
+#item_3 {
+    background-color: yellow;
+    color: blueviolet;
+}
+/* set background and font color */
+#item_4 {
+    background-color: green;
+    color: orange;
+}
+/* set background and font color */
+#item_5 {
+    background-color: blue;
+    color: red;
+}
+/* set background and font color */
+#item_6 {
+    background-color: blueviolet;
+    color: yellow;
+}
+/* set background and font color */
+#item_7 {
+    background-color: white;
+    color: black
+}
+/* set background and font color */
+#item_8 {
+    background-color: aqua;
+    color: gold
+}
+/* set background and font color */
+#item_9 {
+    background-color: fuchsia;
+    color:turquoise;
+}
